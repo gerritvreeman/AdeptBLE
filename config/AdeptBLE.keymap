@@ -52,8 +52,12 @@
     default_layer {
       display-name = "Default";
       bindings = <
-        &ltm BLTH MB4 &ltm DEVICE MB5 &mkp MCLK &lth SCRLM RCLK
-        &mkp LCLK                               &mto SCRLM SNIPE
+        &mkp MB5          // Pin 1: Mouse Button 5
+        &mkp DPI          // Pin 2: DPI toggle (replace with actual behavior later)
+        &mkp MB4          // Pin 3: Mouse Button 4
+        &mkp RCLK         // Pin 4: Right Click
+        &mkp LCLK         // Pin 5: Left Click
+        &mkp MB3          // Pin 6: Mouse Button 3
       >;
     };
     scroll_tap_layer {
