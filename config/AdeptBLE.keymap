@@ -54,10 +54,10 @@
       bindings = <
         &mkp MB4
         &mkp MB5
-        &mkp MCLK
-        &mkp RCLK
-        &mkp LCLK
-        &mkp MB6
+        &mkp MB3
+        &mkp MB2
+        &mkp MB1
+        &mkp MB1
       >;
     };
     scroll_tap_layer {
