@@ -53,7 +53,7 @@
       display-name = "Default";
       bindings = <
         &mkp MB5          // Pin 1: Mouse Button 5
-        &mkp DPI          // Pin 2: DPI toggle (replace with actual behavior later)
+        &mkp MB6          // Pin 2: DPI toggle (replace with actual behavior later)
         &mkp MB4          // Pin 3: Mouse Button 4
         &mkp RCLK         // Pin 4: Right Click
         &mkp LCLK         // Pin 5: Left Click
